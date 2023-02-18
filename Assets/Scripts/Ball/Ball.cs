@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour
 
     void Start()
     {
-        transform.rotation = Quaternion.AngleAxis (Random.Range(1f, 359f), Vector3.forward);
+        // transform.rotation = Quaternion.AngleAxis (Random.Range(1f, 359f), Vector3.forward);
     }
 
     void Update()
